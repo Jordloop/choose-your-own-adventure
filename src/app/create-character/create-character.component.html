@@ -1,0 +1,7 @@
+<label for="">Name</label><br/>
+<input #yourName><br/>
+<label for="">Gender</label><br/>
+<input #yourGender><br/>
+<button type="button" (click)="createCharacter(yourName.value, yourGender.value)" routerLink="caveEntrance">Start Your Adventure</button>
+
+<router-outlet></router-outlet>
